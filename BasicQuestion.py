@@ -124,9 +124,9 @@ a=int(input("Enter The First Number"))
 b=int(input("Enter The Second Number"))
 c=int(input("Enter The Third Number"))
 
-if a > b & b>c:
+if a > b and a>c:
     print("A is Greatest")
-elif b>c:
+elif b>a and b>c:
     print("B is Greatest")
 else:
     print("C is Greatest")
@@ -280,9 +280,9 @@ A=int(input("Enter First Number"))
 B=int(input("Enter Second Number"))
 C=int(input("Enter Third Number"))
 
-if A>B & B>C:
+if A>B and A>C:
     print("A is Largest")
-elif B>C:
+elif B>A and B>C:
     print("B is Greatest")
 else:
     print("C is Greatest")
@@ -294,7 +294,7 @@ C=int(input("Enter Third Number"))
 
 if A<B & B<C:
     print("A is Smallest")
-elif B<C:
+elif B<A and B<C:
     print("B is Smallest")
 else:
     print("C is Smallest")

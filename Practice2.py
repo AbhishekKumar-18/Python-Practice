@@ -27,9 +27,9 @@ else:
 A=int(input("Enter first Number"))
 B=int(input("Enter Second Number"))
 C=int(input("Enter Third Number"))
-if A>B & B>C:
+if A>B and A>C:
     print(A)
-elif B>C:
+elif B>A and B>C:
     print(B)
 else:
     print(C)

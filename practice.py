@@ -19,9 +19,9 @@ A=int(input("Enter 1st Number"))
 B=int(input("Enter 2nd Number"))
 C=int(input("Enter 3rd Number"))
 
-if A>B & B>C:
+if A>B and A>C:
     print("A is Greater")
-elif B>A:
+elif B>A and B>C:
     print("B is Greater")
 else:
     print("C is Greater")

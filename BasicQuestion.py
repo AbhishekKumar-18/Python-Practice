@@ -292,7 +292,7 @@ A=int(input("Enter First Number"))
 B=int(input("Enter Second Number"))
 C=int(input("Enter Third Number"))
 
-if A<B & B<C:
+if A<B & A<C:
     print("A is Smallest")
 elif B<A and B<C:
     print("B is Smallest")

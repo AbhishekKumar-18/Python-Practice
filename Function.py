@@ -110,7 +110,7 @@ print(result)
 
 # 19
 def largest(a,b,c):
-    if a>b & b>c:
+    if a>b and b>c:
         return "A is Largest"
     elif b>c:
         return "B is Largest"
@@ -129,3 +129,55 @@ def chek_pass(marks):
 
 result=chek_pass(95)
 print(result)
+
+# 21
+def add(a,b):
+    return a+b
+a=int(input("Enter 1st number"))
+b=int(input("Enter 2nd Number"))
+
+result=add(a,b)
+print("Sum =",result)
+
+# 22
+def square(a):
+    return a*a
+a=int(input("Enter A Number"))
+result=square(a)
+print("Square=",result)
+
+# 23
+def chek_even_odd(a):
+    if a % 2 ==0:
+        return "Even"
+    else:
+        return "Odd"
+a=int(input("Enter A Number"))
+result=chek_even_odd(a)
+print(result)
+
+# 24
+def largest_number(a,b,c):
+    if a>b and a>c:
+        return " A "
+    elif b>a and b>c:
+        return " B "
+    else:
+        return " C "
+
+a=int(input("Enter 1st Number"))
+b=int(input("Enter 2nd Number"))
+c=int(input("Enter 3rd Number"))
+result=largest_number(a,b,c)
+print("Largest=",result)
+
+
+# 25
+def area_rectange(l,w):
+    return l*w
+l=int(input("Enter The Lenght Of The Rectangle"))
+w=int(input("Enter The Width Of The Rectangle"))
+
+result=area_rectange(l,w)
+print("Area of Rectangle=",result,"Sqr Meter")
+
